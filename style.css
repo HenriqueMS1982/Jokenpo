@@ -1,0 +1,87 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(./assets/wallpaper.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-image: url(./assets/jokenpo.jpg);
+    background-size: cover;
+    padding: 20px;
+    background-color: #d2e46e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 50px;
+}
+
+button {
+    padding: 10px;
+    font-size: 60px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.2s ease-in-out;
+    box-shadow: #2f0764 10px 2px 10px 5px;
+    text-shadow: #2d2e0a 2px 3px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+#rock {
+    background-color: #a200ff;
+}
+
+#paper {
+    background-color: #9ee01a;
+}
+
+#scissors {
+    background-color: #7dbeed;
+    padding: 20px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 25px;    
+    text-shadow: #a7d1f8 2px 3px 15px;
+    color: aliceblue;   
+}
+
+
+.your-score span {
+    color: rgb(221, 221, 233);
+}
+
+
+.machine-score span {
+    color: rgb(240, 6, 150);
+}
+
+h1 {
+    color: #88c8db;
+    border: #01080e;
+    text-shadow: #9e4d2a 2px 3px 15px;
+    box-shadow: #2f0764 1px 2px 3px;
+    font-size: 50px;
+}
